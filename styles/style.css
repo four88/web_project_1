@@ -72,7 +72,7 @@
   max-width: 636px;
   position:absolute;
   right: 20px;
-  top: 135px; ;
+  top: 135px;
 }
 
 .header__footer {
@@ -264,7 +264,7 @@
 }
 
 .person {
-  position: absolute; 
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -317,7 +317,7 @@
 .person__caption {
   text-align: center;
   font-size: 14px;
-  margin: 0 ;
+  margin: 0;
 }
 
 .membership {
