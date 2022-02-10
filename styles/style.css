@@ -2,10 +2,10 @@
 .page{
   min-width: 1100px;
   max-width: 1600px;
-  font-family: "Helvetica Neue", sans-serif, Arial;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height:20px;
-  margin: auto;
+  margin: 0 auto ;
   
 }
 
@@ -126,7 +126,7 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff-card{
+.staff__card{
   display: flex;
   max-width: 760px;
   margin: auto;
@@ -215,18 +215,18 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width:24px;
+  height:24px;
 }
 
 .event-info__icon_calendar {
   background-image: url(../images/icon_calendar.svg);
-  width:24px;
-  height:24px;
+  
 }
 
 .event-info__icon_pin {
   background-image: url(../images/icon_pin.svg);
-  width:24px;
-  height:24px;
+  
 }
 
 .event-info__text {
@@ -385,6 +385,8 @@
   font-weight: 500;
   max-width: 154px;
   z-index: 1;
+  margin-right: 120px;
+  margin-top: 0;
 }
 
 .about__content {
@@ -396,7 +398,6 @@
 }
 
 .about__paragraph {
-  padding: 16px 0;
   margin: 0;
 }
 
@@ -420,7 +421,7 @@
 
 .footer__columns {
   display: flex;
-  margin: 60px auto 40px;
+  
 }
 
 
@@ -469,5 +470,5 @@
 
 .footer__copyrights {
   margin:0;
-  font-size:  12px;
+  
 }
