@@ -37,6 +37,8 @@
   align-items: center;
   column-gap: 20px;
   list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .nav__link {
@@ -387,6 +389,7 @@
   z-index: 1;
   margin-right: 120px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .about__content {
@@ -395,6 +398,9 @@
   font-weight: 400;
   max-width: 660px;
   z-index: 1;
+  display: flex;
+  row-gap: 32px;
+  flex-direction: column;
 }
 
 .about__paragraph {
